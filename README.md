@@ -22,6 +22,13 @@ Inspired from this repo from Microsoft: https://github.com/microsoft/mde-api-gui
 
 <img width="942" height="772" alt="image" src="https://github.com/user-attachments/assets/fecb94c0-e80a-44ae-86c8-9ea8c35d31ed" />
 
+## Why this?
+
+This tool is particularly useful when you need to prevent users from accessing company resources with **non-compliant machines** or during a **security incident**, especially for unmanaged devices (BYOD, no EDR) that **cannot be isolated** through other means. It implies that you have a way to identify the affected devices (e.g. compromised user accounts, IP addresses, etc.) and map them to device names in Entra ID. 
+
+> [!NOTE]
+> You could probaly already do that in the GUI but sometimes it's just faster to do it this way (e.g. CSIRT doesn't have admin rights in Entra ID portal, but has API app credentials).
+
 ## Get started
 1. Create Azure AD application as described here: https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app
 2. Grant the following API permissions to the application:
