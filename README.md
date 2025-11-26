@@ -19,9 +19,8 @@ Inspired from this repo from Microsoft: https://github.com/microsoft/mde-api-gui
 ## Cons
 
 - Will be more difficult to keep up to date
-- Disabled Advanced Query research, now has only one option: CSV import.
 
-<img width="945" height="825" alt="image" src="https://github.com/user-attachments/assets/7dd1e3a9-1dfb-4054-8852-601b6910a31f" />
+<img width="942" height="772" alt="image" src="https://github.com/user-attachments/assets/fecb94c0-e80a-44ae-86c8-9ea8c35d31ed" />
 
 ## Get started
 1. Create Azure AD application as described here: https://learn.microsoft.com/en-us/entra/identity-platform/quickstart-register-app
@@ -29,8 +28,8 @@ Inspired from this repo from Microsoft: https://github.com/microsoft/mde-api-gui
 
 | Permission | Description |
 |-------------------------|----------------------|
-| Device.ReadWrite.All | Allows the app to read and write properties of devices without a signed-in user. |
-| Directory.Read.All | Allows the app to read data in your organization's directory, such as users and groups, without a signed-in user. |
+| `Device.ReadWrite.All` | Allows the app to read and write properties of devices without a signed-in user. |
+| `Directory.Read.All` | Allows the app to read data in your organization's directory, such as users and groups, without a signed-in user. |
 
 3. Create application secret.
 ## Usage
