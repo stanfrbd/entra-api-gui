@@ -1,4 +1,4 @@
-# GUI for MDE API sample app
+# GUI for Entra API sample app
 Simple PowerShell GUI for Microsoft Entra ID actions on devices.
 
 Inspired from this repo from Microsoft: https://github.com/microsoft/mde-api-gui/
